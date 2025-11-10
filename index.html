@@ -1,0 +1,476 @@
+<!--AGREGAR DEL OTRO CODIGO, TODO LO QUE SABEMOS QUE ES-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Verbena &#126 Simbiótica</title>
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+    
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!--fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Farsan&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="main.css">
+    
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--3D, ModelViewer-->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+
+<body class="index-page">
+
+    <header id="header" class="header dark-background d-flex flex-column">
+        <i class="header-toggle d-xl-none bi bi-list"></i>
+
+        <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <div class="container">
+            
+            <h1>Navega</h1>
+            <h1 class="">Simbiótica</h1>
+        </div>
+        </a>
+
+        <div data-aos="fade-up" data-aos-duration="3000" class="social-links text-center">
+        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+
+        <nav id="navmenu" class="navmenu" data-aos="fade-right" data-aos-duration="3000">
+        <ul>
+            <li><a href="#Inicio" class="active"><i class="bi bi-house navicon"></i>Inicio</a></li>
+            <li class="dropdown"><a href="#Historia"><i class="bi bi-menu-button navicon"></i> <span>Historia</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+                <li><a href="#">Dropdown 1</a></li>
+                <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                    <li><a href="#">Deep Dropdown 1</a></li>
+                    <li><a href="#">Deep Dropdown 2</a></li>
+                    <li><a href="#">Deep Dropdown 3</a></li>
+                    <li><a href="#">Deep Dropdown 4</a></li>
+                    <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+                </li>
+                <li><a href="#">Dropdown 2</a></li>
+                <li><a href="#">Dropdown 3</a></li>
+                <li><a href="#">Dropdown 4</a></li>
+            </ul>
+            </li>
+            <li><a href="#Primer Dispositivo"><i class="bi bi-file-earmark-text navicon"></i>Primer Dispositivo</a></li>
+            <li class="dropdown"><a href="#Transmedia"><i class="bi bi-menu-button navicon"></i> <span>Transmedia</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+                <li><a href="#">Dropdown 1</a></li>
+                <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                    <li><a href="#">Deep Dropdown 1</a></li>
+                    <li><a href="#">Deep Dropdown 2</a></li>
+                    <li><a href="#">Deep Dropdown 3</a></li>
+                    <li><a href="#">Deep Dropdown 4</a></li>
+                    <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+                </li>
+                <li><a href="#">Dropdown 2</a></li>
+                <li><a href="#">Dropdown 3</a></li>
+                <li><a href="#">Dropdown 4</a></li>
+            </ul>
+            </li>
+            <li class="dropdown"><a href="#Instalación final"><i class="bi bi-menu-button navicon"></i> <span>Instalación final</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+                <li><a href="#">Dropdown 1</a></li>
+                <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                    <li><a href="#">Deep Dropdown 1</a></li>
+                    <li><a href="#">Deep Dropdown 2</a></li>
+                    <li><a href="#">Deep Dropdown 3</a></li>
+                    <li><a href="#">Deep Dropdown 4</a></li>
+                    <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+                </li>
+                <li><a href="#">Dropdown 2</a></li>
+                <li><a href="#">Dropdown 3</a></li>
+                <li><a href="#">Dropdown 4</a></li>
+            </ul>
+            </li>
+            <li><a href="#Quienes somos"><i class="bi bi-envelope navicon"></i>Quienes somos</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <main >
+        
+        <!--para los tamaños usar Minimum-Viewport Height-xx (min-vh-xx) --->
+        <section class="bg-light py-5 min-vh-100" id="Inicio">        
+            <div class="container section title">
+                <h1 class="display-1">awdwdwdawd</h1>
+            </div>
+            
+            <div class="container px-5">
+                <div class="row">
+                    <div class="col-sm-6 align-self-start lead">
+                    <p>Aa One of three columns</p>
+                    </div>
+                    <div class="col-md-3 align-self-center">
+                    <h1>One of three columns</h1>
+                    </div>
+                    <div class="col-md-3 align-self-end">
+                    One of three columns
+                    </div>
+                </div>
+                    <div class="row ">
+                    <div class="col-lg-9 align-self-start">
+                    <h1 class="display-5">One of three columns</h1>
+                    </div>
+                    <div class="col-sm-3 align-self-center">
+                    <h1>One of three columns</h1>
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+
+        <section class="bg-light py-5 min-vh-100" id="Historia">
+            
+            <!--Descripción Universo / Discurso-->
+            <div class="container section title">
+                <p class="d-inline">¿que es el </p>
+                <h1 class="display-4 d-inline" >UNIVERSO <br>  SIMBIÓTICA</h1>
+                <p class="d-inline">?</p>
+            </div>
+            <div class="container px-5">
+                <div class="row">
+                    <div class="col-sm-6 align-self-start lead mw-1" >
+                    <p style="max-width: 80%; overflow-wrap: break-word;">LosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsf</p>
+                    </div>
+                    <div class="col-md-3 align-self-start">
+                    <h1>Agregar una imagen acá</h1>
+                    </div>
+                    <div class="col-md-3 align-self-end">
+                    One of three columns
+                    </div>
+                </div>
+                    <div class="row py-5">
+                    <div class="col-lg-6 align-self-start">
+                    <p class="text-end">Discurso: </p>
+                    </div>
+                    <div class="col-sm-5 align-self-center">
+                    <h1 class="display-4">Buena Tierra <br> = <br> Buena Gente</h1>
+                    </div>
+                </div>
+            </div>
+
+            <!--personajes-->
+            <div class="container section title">
+                <h1 class="display-1">PERSONAJES</h1>
+            </div>
+            <div class="container px-5">
+                <!--personaje 1-->
+                <div class="row py-3">
+                    <h1 class="col-md-4 ">Agregar una imagen acá</h1>
+                    <div class="col-lg-7 offset-md-1">
+                        <h2 class="display-5">
+                            Aawxa
+                        </h2>
+                        <p style="max-width: 100%; overflow-wrap: break-word;">
+                            LosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsf
+                        </p>
+                    </div>
+                </div>
+                <!--personaje 2-->
+                <div class="row py-3">
+                    <div class="col-lg-7 ">
+                        <h2 class="display-5">
+                            Aawxa
+                        </h2>
+                        <p style="max-width: 100%; overflow-wrap: break-word;">
+                            LosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsf
+                        </p>
+                    </div>
+                    <h1 class="col-md-4 offset-md-1">Agregar una imagen acá</h1>
+                </div>
+                <!--personaje 3-->
+                <div class="row py-3">
+                    <h1 class="col-md-4 ">Agregar una imagen acá</h1>
+                    <div class="col-lg-7 offset-md-1">
+                        <h2 class="display-5">
+                            Aawxa
+                        </h2>
+                        <p style="max-width: 100%; overflow-wrap: break-word;">
+                            LosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsf
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-light py-5 min-vh-100" id="Primer Dispositivo">
+            
+            <div class="container section title">
+                <h1 class="display1 text-end">PRIMER DISPOSITIVO</h1>
+            </div>
+            
+            <div class="container mw-10 h-100 px-5">
+                <div class="row py-5">
+                    <div class="col-sm-7 align-self-start" >
+                        <div class="model-viewer-aspect">
+                            <model-viewer
+                                src="3d/16_7_2025.glb"
+                                alt="Imagen del Intrumento Simbiotizador..."
+                                shadow-intensity="1"
+                                camera-controls
+                                ar
+                            ></model-viewer>
+                        </div>
+                    </div>
+                        
+                    <div class="col-lg align-self-start w-5" id="rojo">
+                        El simbiotizador
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-7">
+                        <p style="overflow-wrap: break-word;">
+                            LosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsf
+                        </p>
+                    </div>
+                    <div class="col-md-4 offset-md-1">
+                        <p style="overflow-wrap: break-word;">
+                           aLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsf 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--reciclable:-->
+            <div class="container mw-10 h-80 px-5">
+                <div class="row py-5">
+                    <div class="bg-gray col-lg-5">
+                        <img src="images/prueba.png" class="img-fluid" style="width: 466px; height: 376px; object-fit: cover;" alt="">
+                    </div>
+                    <div class="col-md-3 align-self-center" style="overflow-wrap: break-word;">
+                        <p>LosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefs
+                        </p>
+                    </div>
+                    <div class="col-md-4 align-self-end">
+                        <img src="images/prueba.png" class="img-fluid" style="width: 345px; height: 278px; object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 offset-md-1 align-self-end" style="overflow-wrap: break-word;">
+                        <p>LosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefs
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/prueba.png" class="img-fluid" style="width: 345px; height: 278px; object-fit: cover;" alt="">
+                    </div>
+                    <div class="col-md-3 align-self-start" style="overflow-wrap: break-word;">
+                        <p>LosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefs
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+
+        <section class="bg-light py-5 min-vh-100" id="Transmedia">
+            
+            <div class="container section title text-center">
+                <h1 class="display1">LA TRANSMEDIA</h1>
+            </div>
+            
+            <!--MAPA (terminar)-->
+            <div class="container mw-10 h-100 px-5">
+                <div class="row">
+                    <div class="col-sm align-self-start">
+                    One of three columns
+                    </div>
+                    <button class="btn btn-primary">HOLA</button>
+                    <div class="col-lg align-self-center w-5" id="rojo">
+                    One of three columns
+                    </div>
+                    <div class="col-sm align-self-end">
+                    One of three columns
+                    </div>
+                </div>
+            </div>
+
+            <!--REDES-->
+            <h1 class="display1 px-5 py-5">Redes</h1>
+            <div class="container px-5 py-5">
+                <div class="row">
+                   <div class="col-md-3 offset-md-4">
+                        <img src="images/prueba.png" class="img-fluid" style="width: 345px; height: 278px; object-fit: cover;" alt="">
+                   </div> 
+                   <div class="col-lg-5">
+                        <p style="overflow-wrap: break-word;">
+                            LosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefs
+                        </p>
+                   </div> 
+                </div>
+                <div class="row">
+                    <div class="col-md-4 offset-md-1 text-end">
+                        <p style="overflow-wrap: break-word;">
+                            LosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefs
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="images/prueba.png" class="img-fluid" style="width: 462px; height: 684px; object-fit: cover;" alt="">
+                    </div>
+                    <div class="col-md-5 offset-md-2 align-self-end">
+                        <p style="overflow-wrap: break-word;">
+                            LosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsf
+                        </p>
+                    </div>
+                </div>        
+            </div>
+
+            <div class="container px-5 py-5">
+                <div class="row">
+                    <div class="col-lg-5">
+                    <h2 class="display-5 text-end">Simbio-Tiny-Desk</h2>
+                    <p class="text-end" style="overflow-wrap: break-word;"> LosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsf</p>
+                    </div>
+                    <div class="col-md-3">
+                        <video width="320" height="240" controls>
+                        <source src="video/SIMBIOTINY.mp4" type="video/mp4">
+                        <source src="video/SIMBIOTINY.webm" type="video/webm">
+                        Lo sentimos mucho, tu navegador no puede reproducir este video.
+                        </video>  
+                    </div>
+                </div>
+            </div>
+
+            <!--promocion fisica y grafica-->
+            <h1 class="display1 px-5 py-5">Promoción fisica y grafica</h1>
+            <div class="container px-5 py-5">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <p style="overflow-wrap: break-word;">
+                            LosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefs
+                        </p>
+                   </div> 
+                   <div class="col-md-3">
+                        <img src="images/prueba.png" class="img-fluid" style="width: 345px; height: 278px; object-fit: cover;" alt="">
+                   </div> 
+                   
+                </div>
+                <div class="row">
+                    <div class="col-md-4 offset-md-7 text-end">
+                        <p style="overflow-wrap: break-word;">
+                            LosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefs
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5  align-self-end">
+                        <p style="overflow-wrap: break-word;">
+                            LosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsfLosfesfsefsefsefeffsefsfefsfsffsfefesfsf
+                        </p>
+                    </div>
+                    
+                    <div class="col-md-5 offset-md-2">
+                        <img src="images/prueba.png" class="img-fluid" style="width: 462px; height: 684px; object-fit: cover;" alt="">
+                    </div>
+                </div> 
+                <div class="row text-center py-5">
+                    <p style="overflow-wrap: break-word;">
+                            "El SimbiotizadorEl SimbiotizadorEl Simbiotizador"
+                    </p>
+                </div>       
+            </div>
+
+        </div>
+        
+        </section>
+
+        <section class="bg-light py-5 min-vh-100" id="Instalación final">
+            
+            <div class="container section title">
+                <h1 class="display1">awdwdwdawd</h1>
+            </div>
+            
+            <div class="container mw-10 h-100">
+                <div class="row">
+                    <div class="col-sm align-self-start">
+                    One of three columns
+                    </div>
+                    <button class="btn btn-primary">HOLA</button>
+                    <div class="col-lg align-self-center w-5" id="rojo">
+                    One of three columns
+                    </div>
+                    <div class="col-sm align-self-end">
+                    One of three columns
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+
+        <section class="bg-light py-5 min-vh-100" id="Quienes somos">
+            
+            <div class="container section title">
+                <h1 class="display1">awdwdwdawd</h1>
+            </div>
+            
+            <div class="container mw-10 h-100">
+                <div class="row">
+                    <div class="col-sm align-self-start">
+                    One of three columns
+                    </div>
+                    <button class="btn btn-primary">HOLA</button>
+                    <div class="col-lg align-self-center w-5" id="rojo">
+                    One of three columns
+                    </div>
+                    <div class="col-sm align-self-end">
+                    One of three columns
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+
+    </main>
+    
+    <footer>
+
+    </footer>
+
+
+
+    <div >
+        <h1 data-aos="flip-right">faecwacca</h1>
+    </div>
+
+
+    
+    <!---librerias---------------------------------------------------------------------------->
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!--JS main-->
+    <script src="main.js"></script>
+
+    <!--AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
