@@ -45,7 +45,7 @@ h1, h2, h3 {
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #f4fafd;
+  --background-color: #eed295;
   --surface-color: #ffffff;
 }
 
